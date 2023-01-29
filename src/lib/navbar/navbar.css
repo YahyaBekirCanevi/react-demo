@@ -1,0 +1,42 @@
+.NavBar {
+    background-color: var(--background-rgb);
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    --fontSize: 20px;
+}
+
+.NavBar-logo {
+    height: 100%;
+    width: auto;
+    pointer-events: none;
+}
+
+.Navigations {
+    flex-grow: 1;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navigations>li {
+    display: inline-block;
+    zoom: 1;
+    margin: 8px;
+    height: auto;
+    text-align: center;
+    font-size: var(--fontSize);
+}
+
+.NavBar-actions {
+    width: 10%;
+}
